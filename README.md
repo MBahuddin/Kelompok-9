@@ -1,14 +1,12 @@
 # Kelompok-9
-Rankuman python
-
-
+Eksplorasi Mengenai Bahasa Python
 
 ## Anggota Kelompok
 
 1. Mokhammad Bahauddin (103102400080) 1 - 3 
 2. Gracella Mangalik   (103102400011) 4 - 6  
 3. Luluk Nabilah Putri (103102400057) 7 - 9
-4. Atika Caya Maylinda (103102400027) 10 - 12 , 13 (bersama)
+4. Atika Caya Maylinda (103102400027) 10 - 12 
 
 
 ## 1. Mengenali karakteristik data
