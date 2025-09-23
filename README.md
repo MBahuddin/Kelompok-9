@@ -21,6 +21,7 @@ Eksplorasi Materi Mengenai Bahasa Python
 Indeks elemen pada array adalah nomor urut yang digunakan untuk mengakses data di dalam array, biasanya jika angka positif dimulai dari indeks 0  dari baris depan, tetapi jika angka negatif dimulai dari indeks -1 dari baris belakang.
 
 Contoh :
+
 ![7](Images/7.png)
 
 
