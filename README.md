@@ -5,10 +5,10 @@ Rankuman python
 
 ## Anggota Kelompok
 
-1. Mokhammad Bahauddin (103102400080)
-2. Gracella Mangalik   (103102400011)
-3. Luluk Nabilah Putri (103102400057)
-4. Atika Caya Maylinda (103102400027)
+1. Mokhammad Bahauddin (103102400080) 1 - 3 
+2. Gracella Mangalik   (103102400011) 4 - 6  
+3. Luluk Nabilah Putri (103102400057) 7 - 9
+4. Atika Caya Maylinda (103102400027) 10 - 12 , 13 (bersama)
 
 
 ## 1. Mengenali karakteristik data
@@ -64,6 +64,9 @@ Keterangan :
 ## 11. Melakukan agregasi beberapa array
 ## 12. Melakukan operasi dengan logika himpunan
 ## 13. Memanipulasi array
+Manipulasi array adalah proses mengubah array sesuai kebutuhan, misalnya menyalin, merubah bentuk (reshape), menggabungkan, memisahkan, atau mengurutkan elemen-elemen di dalam array.
+
+
 
 
 
