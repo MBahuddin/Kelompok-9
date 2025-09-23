@@ -32,8 +32,11 @@ Contoh :
 
 
 Keterangan : 
+
   •	Data[i] artinya ambil elemen di posisi ke-i
+  
   Contoh : data[0] artinya memanggil elemen yang diposisi indeks ke 0 yaitu 10
+  
   •	Jika i billangan positif maka kita lihat urutannya dari depan ke belakang, sedangkan i negatif maka kita lihat urutannya dari belakang ke depan tetapi di mulai dari indeks -1 bukan 0. Sehingga dari contohnya indeks -1 yaitu 50.
 
 ## 8. Mengimplementasikan operasi logika matematika menggunakan boolean
@@ -52,14 +55,21 @@ Contoh :
 
 Keterangan : 
 Misal punya keranjang berisi 10 apel, ada yang merah, ada hijau, dan ada yang kuning.
+
 Jika pelanggan bilang: “Saya hanya mau ambil apel yang warnanya merah.”
+
   •	Keranjang apel = array data (misalnya [merah, hijau, merah, kuning, ...])
+  
   •	Kondisi (merah saja) = operasi logika (misalnya apel == "merah")
+  
   •	Mask = daftar True/False hasil cek kondisi tiap apel
+  
   Contoh: [True, False, True, False, ...]
+  
   •	Hasil = apel yang lolos kondisi (semua yang True)
 
 ## 9. Melakukan operasi arimatika
+
 Operasi aritmatika pada array adalah perhitungan matematika (seperti tambah, kurang, kali, bagi) yang langsung diterapkan ke semua isi array, tanpa harus menghitung satu per satu dengan perulangan.
 
 Contoh :
@@ -73,7 +83,9 @@ Contoh :
 
  
 Keterangan : 
+
   •	x + y = operasi antar-array (elemen dijumlahkan satu per satu).
+  
   •	x * 2 = operasi dengan skalar (semua elemen dikali angka yang sama).
 
 
