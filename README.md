@@ -19,7 +19,12 @@ Eksplorasi Materi Mengenai Bahasa Python
 ## 7. Mengetahui index elemen pada array
 
 Indeks elemen pada array adalah nomor urut yang digunakan untuk mengakses data di dalam array, biasanya jika angka positif dimulai dari indeks 0  dari baris depan, tetapi jika angka negatif dimulai dari indeks -1 dari baris belakang.
-Contoh : 
+
+Contoh :
+![7](Images/7.png)
+
+
+
 
 
 
@@ -33,7 +38,13 @@ Keterangan :
 ## 8. Mengimplementasikan operasi logika matematika menggunakan boolean
 
 Mengimplementasikan operasi logika matematika menggunakan boolean berarti menerapkan operator logika seperti AND (&), OR (|), NOT (~), dan XOR (^) pada array atau variabel boolean untuk menghasilkan array baru yang berisi nilai True atau False sesuai kondisi.
+
 Contoh : 
+
+![*](Images/8.png)
+
+
+
 
 
 
@@ -49,7 +60,13 @@ Jika pelanggan bilang: “Saya hanya mau ambil apel yang warnanya merah.”
 
 ## 9. Melakukan operasi arimatika
 Operasi aritmatika pada array adalah perhitungan matematika (seperti tambah, kurang, kali, bagi) yang langsung diterapkan ke semua isi array, tanpa harus menghitung satu per satu dengan perulangan.
+
 Contoh :
+
+![9](Images/9.png)
+
+
+
 
 
 
