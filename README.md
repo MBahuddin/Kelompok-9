@@ -13,7 +13,6 @@ Eksplorasi Materi Mengenai Bahasa Python
 ## 1. Mengenali karakteristik data
 Karakteristik data adalah sifat dari data yang disimpan, seperti bentuk, ukuran, tipe, serta bagaimana data tersebut dapat diolah. Misalnya, data bisa berupa angka (integer, float), teks (string), atau logika (boolean).  
 
-    **Contoh :**
     ```python
     # Mengenali karakteristik data
     angka = 25
@@ -25,7 +24,8 @@ Karakteristik data adalah sifat dari data yang disimpan, seperti bentuk, ukuran,
     print("teks:", teks, "->", type(teks))
     print("desimal:", desimal, "->", type(desimal))
     print("logika:", logika, "->", type(logika))
-output: 
+    
+Output: 
 
 angka: 25 -> <class 'int'>]
 
@@ -49,7 +49,7 @@ Keterangan :
 
 Tipe data adalah jenis nilai yang bisa disimpan dan diproses dalam program. Python memiliki berbagai tipe data dasar seperti integer, float, string, boolean, list, tuple, dan dictionary.
 
-    **Contoh :**
+ 
     ```python
     # Contoh tipe data
     a = 10          # integer
