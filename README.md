@@ -213,7 +213,7 @@ Keterangan :
 ## 10. Elementwise function
 ## 11. Melakukan agregasi beberapa array
 ## 12. Melakukan operasi dengan logika himpunan
-## 13. Memanipulasi array
+## 13. Memanipulasi array (Dikerjakan Bersama)
 Manipulasi array adalah proses mengubah array sesuai kebutuhan, misalnya menyalin, merubah bentuk (reshape), menggabungkan, memisahkan, atau mengurutkan elemen-elemen di dalam array.
 
 
