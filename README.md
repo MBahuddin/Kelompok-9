@@ -11,9 +11,130 @@ Eksplorasi Materi Mengenai Bahasa Python
 
 
 ## 1. Mengenali karakteristik data
+Karakteristik data adalah sifat dari data yang disimpan, seperti bentuk, ukuran, tipe, serta bagaimana data tersebut dapat diolah. Misalnya, data bisa berupa angka (integer, float), teks (string), atau logika (boolean).  
+
+    **Contoh :**
+    ```python
+    # Mengenali karakteristik data
+    angka = 25
+    teks = "Belajar Python"
+    desimal = 3.14
+    logika = True
+    
+    print("angka:", angka, "->", type(angka))
+    print("teks:", teks, "->", type(teks))
+    print("desimal:", desimal, "->", type(desimal))
+    print("logika:", logika, "->", type(logika))
+output: 
+
+angka: 25 -> <class 'int'>]
+
+teks: Belajar Python -> <class 'str'>
+
+desimal: 3.14 -> <class 'float'>
+
+logika: True -> <class 'bool'>
+
+Keterangan :
+
+ •	int → bilangan bulat
+
+ •	str → teks
+
+ •	float → bilangan pecahan
+
+ •	bool → nilai logika True/False
+
 ## 2. Tipe Data
+
+Tipe data adalah jenis nilai yang bisa disimpan dan diproses dalam program. Python memiliki berbagai tipe data dasar seperti integer, float, string, boolean, list, tuple, dan dictionary.
+
+    **Contoh :**
+    ```python
+    # Contoh tipe data
+    a = 10          # integer
+    b = 2.5         # float
+    c = "Python"    # string
+    d = [1, 2, 3]   # list
+    e = (4, 5, 6)   # tuple
+    f = {"x": 7}    # dictionary
+    
+    print("a:", a, "->", type(a))
+    print("b:", b, "->", type(b))
+    print("c:", c, "->", type(c))
+    print("d:", d, "->", type(d))
+    print("e:", e, "->", type(e))
+    print("f:", f, "->", type(f))
+
+Output: 
+
+a: 10 -> <class 'int'>
+
+b: 2.5 -> <class 'float'>
+
+c: Python -> <class 'str'>
+
+d: [1, 2, 3] -> <class 'list'>
+
+e: (4, 5, 6) -> <class 'tuple'>
+
+f: {'x': 7} -> <class 'dict'>
+
+Keterangan :
+
+ • int → bilangan bulat
+
+ • float → bilangan pecahan
+
+ • str → teks
+
+ • list → data terurut, bisa diubah
+
+ • tuple → data terurut, tidak bisa diubah
+
+ • dict → pasangan kunci-nilai
+
+
 ## 3. Membuat array dengan berbagai teknik
+
+Array adalah struktur data untuk menyimpan sekumpulan nilai. Di Python, array bisa dibuat dengan list biasa atau dengan library array/numpy.
+
+    ```python
+
+    # Membuat array dengan list
+    arr1 = [10, 20, 30, 40]
+    
+    # Membuat array dengan module array
+    import array
+    arr2 = array.array('i', [1, 2, 3, 4])
+    
+    # Membuat array dengan numpy
+    import numpy as np
+    arr3 = np.array([100, 200, 300])
+    
+    print("Array list   :", arr1)
+    print("Array module :", arr2)
+    print("Array numpy  :", arr3)
+    
+Output:
+
+Array list   : [10, 20, 30, 40]
+
+Array module : array('i', [1, 2, 3, 4])
+
+Array numpy  : [100 200 300]
+
+Keterangan :
+
+ • list → cara termudah membuat array di Python
+
+ • array (dari module array) → lebih hemat memori, hanya untuk tipe data homogen
+
+ • numpy.array → mendukung operasi matematika lebih kompleks
+
 ## 4. Membuat matriks
+
+
 ## 5. memanipulasi matriks dan operasi-operasi
 ## 6. Membuat array multidimensi
 ## 7. Mengetahui index elemen pada array
