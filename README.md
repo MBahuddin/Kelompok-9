@@ -171,6 +171,7 @@ Contoh Operasi-operasi Matriks:
 ![5.2](Images/5.2.png)
 
 Keterangan:
+
 •  A + B → penjumlahan elemen sesuai posisi baris & kolom.
 
 •  A * B → perkalian elemen satu per satu (bukan matriks).
@@ -342,6 +343,20 @@ Manipulasi array adalah proses mengubah array sesuai kebutuhan, misalnya menyali
 Contoh: 
 
 ![13](Images/13.png)
+
+Keterangan:
+
+• np.array([data]) → Membuat array NumPy dari list Python.
+
+• arr.copy() → Membuat salinan independen dari array, sehingga perubahan pada array asli tidak memengaruhi salinannya.
+
+• arr2d.reshape(baris, kolom) → Mengubah bentuk array tanpa mengubah datanya, misalnya dari 2x3 menjadi 3x2.
+
+• np.concatenate([arr1, arr2]) → Menggabungkan dua array menjadi satu kesatuan.
+
+• np.split(array, n) → Memecah array menjadi n bagian dengan panjang yang sama (jika memungkinkan).
+
+• np.sort(array) → Mengurutkan elemen array secara ascending (dari kecil ke besar).
 
 
 
