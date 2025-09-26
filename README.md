@@ -138,6 +138,8 @@ Matriks adalah susunan bilangan dalam baris dan kolom yang berbentuk persegi pan
 
 Contoh: 
 
+![4](Images/4.png)
+
 Keterangan:
 
  •  Matriks A dibuat dengan 2 baris dan 3 kolom.
@@ -153,6 +155,8 @@ Manipulasi matriks artinya mengubah bentuk atau orientasi matriks. Contohnya tra
 
 Contoh Memanipulasi Matriks:
 
+![5](Images/5.png)
+
 
 
 Keterangan:
@@ -164,6 +168,8 @@ Keterangan:
 
 Contoh Operasi-operasi Matriks:
 
+![5.2](Images/5.2.png)
+
 Keterangan:
 •  A + B → penjumlahan elemen sesuai posisi baris & kolom.
 
@@ -174,9 +180,13 @@ Keterangan:
 
 ## 6. Membuat array multidimensi
 
+
+
 Array multidimensi adalah array dengan lebih dari dua dimensi. Contohnya array 3 dimensi (3D) yang bisa dianggap sebagai kumpulan beberapa matriks. Array multidimensi banyak dipakai dalam data citra (gambar), data spasial, dan deep learning.
 
 Contoh:
+
+![6](Images/6.png)
 
 
 
@@ -266,11 +276,14 @@ Keterangan :
 
 ## 10. Elementwise function
 
+
+
 Elementwise function adalah proses penerapan operasi atau fungsi matematika pada setiap elemen array secara individual. Artinya, setiao elemen yang berada pada posisi yang sama di dalam dua array (atau satu array tunggal untuk fungsi tertentu) akan dikenai perhitungan yang sama secara serentak tanpa perlu melakukan perulangan manual. Contoh operasi yang termasuk dalam elementwise function antara lain penjumlahan, pengurangan, perkalian, pembagian, maupun fungsi matematika seperti akar kuadrat (sqrt), sinus, atau kosinus. Penggunaan metode ini sangat efisien karena memanfaatkan kemampuan komputasi vector pada library NumPy sehingga pemrosesan data menjadi lebih cepat.
 
 
 Contoh:
 
+![10](Images/10.png)
 
 Keterangan:
 
@@ -287,6 +300,8 @@ Agregasi merupakan proses penggabungan dan peringkasan data untuk memperoleh inf
 
 Contoh:
 
+![11](Images/11.png)
+
 
 Keterangan:
 
@@ -301,11 +316,15 @@ Keterangan:
 ## 12. Melakukan operasi dengan logika himpunan
 
 
+
 Operasi logika himpunan Adalah metode untuk menganalisis hubungan antar dua set data yang direpresentasikan dalam bentuk array. Operasi ini memungkinkan pengguna untuk menentukan gabungan (union), irisan (intersection), maupun selisih (difference) dari dua
 array. Dengan memanfaatkan fungsi bawaan NumPy, proses identifikasi elemen yang sama, elemen unik, maupun elemen yang hanya terdapat pada salah satu array dapat dilakukan secara efisien. Pendekatan ini sangat berguna ketika diperlukan analisis kesamaan atau perbedaan data, misalnya dalam pengelolaan basis data atau perbandingan hasil pengukuran.
 
 
 Contoh:
+
+![12](Images/12.png)
+
 
 
 Keterangan:
@@ -319,6 +338,11 @@ Keterangan:
 
 ## 13. Memanipulasi array (Dikerjakan Bersama)
 Manipulasi array adalah proses mengubah array sesuai kebutuhan, misalnya menyalin, merubah bentuk (reshape), menggabungkan, memisahkan, atau mengurutkan elemen-elemen di dalam array.
+
+Contoh: 
+
+![13](Images/13.png)
+
 
 
 
