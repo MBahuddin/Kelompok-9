@@ -1,5 +1,5 @@
 # Kelompok-9
-Eksplorasi Materi Mengenai Bahasa Python
+Eksplorasi Materi Mengenai Bahasa pemrograman Python  
 
 
 ## Anggota Kelompok
