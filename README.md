@@ -134,9 +134,62 @@ Keterangan :
 
 ## 4. Membuat matriks
 
+Matriks adalah susunan bilangan dalam baris dan kolom yang berbentuk persegi panjang. Dalam NumPy, matriks direpresentasikan dengan array dua dimensi. Kita dapat membuat matriks menggunakan fungsi np.array() dengan memberikan data dalam bentuk list bersarang (nested list).
+
+Contoh: 
+
+Keterangan:
+
+ •  Matriks A dibuat dengan 2 baris dan 3 kolom.
+ 
+ •  np.array() mengubah list Python menjadi array NumPy.
+ 
+ •  Hasilnya adalah representasi matriks standar.
+
 
 ## 5. memanipulasi matriks dan operasi-operasi
+
+Manipulasi matriks artinya mengubah bentuk atau orientasi matriks. Contohnya transpose (menukar baris jadi kolom), reshape (mengubah ukuran), atau indexing/slicing (mengambil elemen tertentu). Operasi-operasi matriks mencakup penjumlahan, perkalian elemen, dan perkalian matriks (dot product). NumPy menyediakan fungsi bawaan yang membuat operasi ini lebih cepat dibandingkan perhitungan manual.
+
+Contoh Memanipulasi Matriks:
+
+
+
+Keterangan:
+
+•  Transpose (A.T) menukar baris menjadi kolom.
+
+•  Reshape (A.reshape(3,2)) mengubah bentuk matriks 2x3 menjadi 3x2, tapi nilai elemen tetap sama hanya beda susunan.
+
+
+Contoh Operasi-operasi Matriks:
+
+Keterangan:
+•  A + B → penjumlahan elemen sesuai posisi baris & kolom.
+
+•  A * B → perkalian elemen satu per satu (bukan matriks).
+
+•  np.dot(A, B) → perkalian matriks (sesuai aturan aljabar linier).
+
+
 ## 6. Membuat array multidimensi
+
+Array multidimensi adalah array dengan lebih dari dua dimensi. Contohnya array 3 dimensi (3D) yang bisa dianggap sebagai kumpulan beberapa matriks. Array multidimensi banyak dipakai dalam data citra (gambar), data spasial, dan deep learning.
+
+Contoh:
+
+
+
+Keterangan:
+
+•  np.arange(24) membuat angka dari 0 sampai 23.
+
+•  reshape(2,3,4) mengatur bentuknya menjadi 2 blok, tiap blok 3 baris × 4 kolom.
+
+•  arr.shape menunjukkan ukuran array, yaitu (2, 3, 4)
+
+
+
 ## 7. Mengetahui index elemen pada array
 
 Indeks elemen pada array adalah nomor urut yang digunakan untuk mengakses data di dalam array, biasanya jika angka positif dimulai dari indeks 0  dari baris depan, tetapi jika angka negatif dimulai dari indeks -1 dari baris belakang.
@@ -175,6 +228,7 @@ Contoh :
 
 
 Keterangan : 
+
 Misal punya keranjang berisi 10 apel, ada yang merah, ada hijau, dan ada yang kuning.
 
 Jika pelanggan bilang: “Saya hanya mau ambil apel yang warnanya merah.”
@@ -211,8 +265,58 @@ Keterangan :
 
 
 ## 10. Elementwise function
+
+Elementwise function adalah proses penerapan operasi atau fungsi matematika pada setiap elemen array secara individual. Artinya, setiao elemen yang berada pada posisi yang sama di dalam dua array (atau satu array tunggal untuk fungsi tertentu) akan dikenai perhitungan yang sama secara serentak tanpa perlu melakukan perulangan manual. Contoh operasi yang termasuk dalam elementwise function antara lain penjumlahan, pengurangan, perkalian, pembagian, maupun fungsi matematika seperti akar kuadrat (sqrt), sinus, atau kosinus. Penggunaan metode ini sangat efisien karena memanfaatkan kemampuan komputasi vector pada library NumPy sehingga pemrosesan data menjadi lebih cepat.
+
+
+Contoh:
+
+
+Keterangan:
+
+• a + b → melakukan penjumlahan pada setiap elemen yang posisinya sama di dalam array a dan b.
+
+• np.sqrt(a) → menghitung akar kuadrat setiap element array a tanpa perlu perulangan manual.
+
+• Operasi seperti ini disebut elementwise karena proses dilakukan untuk tiap elemen secara otomatis.
+
 ## 11. Melakukan agregasi beberapa array
+
+Agregasi merupakan proses penggabungan dan peringkasan data untuk memperoleh informasi ringkas dari satu atau lebih array. Tujuannya Adalah mendapatkan nilai representatif seperti jumlah total, rata-rata, nilai maksimum, nilai minimum, atau ukuran statistik lain. Sebelum melakukan perhitungan, beberapa array dapat digabungkan menjadi satu kesatuan agar analisis dapat mencakup seluruh data. Teknik agregasi ini umum digunakan dalam analisis data, misalnya untuk menghitung total penjualan, rata-rata nilai ujian, atau rangkuman data eksperimen.
+
+
+Contoh:
+
+
+Keterangan:
+
+• np.concatenate([x, y]) → menggabungkan dua array menjadi satu array panjang.
+
+• np.sum(gabung) → menghitung jumlah semua elemen.
+
+• np.mean(gabung) → menghitung nilai rata-rata seluruh elemen.
+
+• np.max() dan np.min() → mencari nilai terbesar dan terkecil dalam array gabungan.
+
 ## 12. Melakukan operasi dengan logika himpunan
+
+
+Operasi logika himpunan Adalah metode untuk menganalisis hubungan antar dua set data yang direpresentasikan dalam bentuk array. Operasi ini memungkinkan pengguna untuk menentukan gabungan (union), irisan (intersection), maupun selisih (difference) dari dua
+array. Dengan memanfaatkan fungsi bawaan NumPy, proses identifikasi elemen yang sama, elemen unik, maupun elemen yang hanya terdapat pada salah satu array dapat dilakukan secara efisien. Pendekatan ini sangat berguna ketika diperlukan analisis kesamaan atau perbedaan data, misalnya dalam pengelolaan basis data atau perbandingan hasil pengukuran.
+
+
+Contoh:
+
+
+Keterangan:
+
+
+• np.union1d(data1, data2) → menghasilkan gabungan kedua array tanpa duplikasi.
+
+• np.intersect1d(data1, data2) → menampilkan elemen yang terdapat pada kedua array (irisan).
+
+• np.setdiff1d(data1, data2) → menampilkan elemen yang hanya ada pada data1 tetapi tidak terdapat pada data2.
+
 ## 13. Memanipulasi array (Dikerjakan Bersama)
 Manipulasi array adalah proses mengubah array sesuai kebutuhan, misalnya menyalin, merubah bentuk (reshape), menggabungkan, memisahkan, atau mengurutkan elemen-elemen di dalam array.
 
